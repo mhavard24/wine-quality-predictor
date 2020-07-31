@@ -1,6 +1,7 @@
 README.md
 setup.py
 wqp/__init__.py
+wqp/cli.py
 wqp/data_access.py
 wqp/evaluation.py
 wqp/main.py

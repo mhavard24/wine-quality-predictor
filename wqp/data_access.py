@@ -10,7 +10,7 @@ def fetch_csv_data(url: str, separator: Optional[str]) -> pd.DataFrame:
     :param separator: an optional separator to override the default separator (comma)
     :return: a Pandas Dataframe containing the loaded data
     """
-    raise NotImplementedException()
+    raise NotImplementedError()
 
 def build_train_test_sets(data: pd.DataFrame, label_col: str, train_size: float) -> \
         Dict[str, Tuple[pd.DataFrame, pd.DataFrame]]:
@@ -25,4 +25,4 @@ def build_train_test_sets(data: pd.DataFrame, label_col: str, train_size: float)
         - train: contains (train_x, train_y)
         - test: contains (test_x, test_y
     """
-    raise NotImplementedException()
+    raise NotImplementedError()

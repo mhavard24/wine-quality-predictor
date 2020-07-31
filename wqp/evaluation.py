@@ -16,4 +16,4 @@ def compute_model_metrics(model: Pipeline, x: pd.DataFrame, y: pd.DataFrame) -> 
         - mae: the mean absolute error
         - r2: the r2 score
     """
-    raise NotImplementedException()
+    raise NotImplementedError()
